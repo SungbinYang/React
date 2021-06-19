@@ -1,2 +1,6 @@
 # React
-리액트 공부하는 저장소입니다.
+
+## 1. React Getting Started
+  - React Concept
+  - 개발횐경 구축
+  - React 라이브러리
