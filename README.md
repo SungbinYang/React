@@ -12,3 +12,12 @@
   - Props와 State
   - Event Handling
   - Component Lifecycle
+
+## 3. Creating React Project
+  - Create React App
+  - ESLint
+  - Prettier
+  - husky
+  - lint-staged
+  - Create React App 시작하는 부분 공부
+  - 리액트 컴포넌트 디버깅
