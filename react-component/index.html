@@ -117,7 +117,7 @@
         message: "기본 값",
       }; **/
 
-      class Component extends React.Component {
+      /** class Component extends React.Component {
         // state = {
         // count: 0,
         // };
@@ -160,7 +160,52 @@
       ReactDOM.render(
         <Component message="기본값 아님" />,
         document.querySelector("#root")
-      );
+      ); **/
+
+      /** function Component() {
+        return (
+          <div>
+            <button
+              onClick={() => {
+                console.log("clicked");
+              }}
+            >
+              클릭
+            </button>
+          </div>
+        );
+      } **/
+
+      class Component extends React.Component {
+        state = {
+          count: 0,
+        };
+
+        // constructor(props) {
+        // super(props);
+
+        // this.click = this.click.bind(this);
+        // }
+
+        render() {
+          return (
+            <div>
+              <p>{this.state.count}</p>
+              <button onClick={this.click}>클릭</button>
+            </div>
+          );
+        }
+
+        click = () => {
+          console.log("clicked");
+          this.setState((state) => ({
+            ...state,
+            count: state.count + 1,
+          }));
+        };
+      }
+
+      ReactDOM.render(<Component />, document.querySelector("#root"));
     </script>
   </body>
 </html>
