@@ -21,3 +21,11 @@
   - lint-staged
   - Create React App 시작하는 부분 공부
   - 리액트 컴포넌트 디버깅
+
+## 4. React Router
+  - React의 Routing 이해
+  - Dynamic 라우팅
+  - Switch와 NotFound
+  - JSX링크로 라우팅 이동하기
+  - JS로 라우팅 이동하기
+  - Redirect
