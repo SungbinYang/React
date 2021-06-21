@@ -37,3 +37,7 @@
   - Styled Components
   - React Shadow
   - Ant Design
+ 
+ ## 6. React usage
+  - High Order Component
+  - Controlled Component & Uncontrolled Component
