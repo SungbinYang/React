@@ -49,3 +49,8 @@
   - React Router Hooks
   - 컴포넌트간 통신
   - Context API
+
+## 8. React Testing
+  - Javascript Unit Test & Jest 사용
+  - React Component Test
+  - testing-libraryreact 활용하기
