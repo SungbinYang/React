@@ -38,7 +38,7 @@
   - React Shadow
   - Ant Design
  
- ## 6. React usage
+## 6. React usage
   - High Order Component
   - Controlled Component & Uncontrolled Component
 
@@ -54,3 +54,8 @@
   - Javascript Unit Test & Jest 사용
   - React Component Test
   - testing-libraryreact 활용하기
+
+## 9. React Advanced
+  - Optimizing Performance
+  - createPortal
+  - forwardRef
