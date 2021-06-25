@@ -1,6 +1,7 @@
 import "./App.css";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Modal from "./components/Modal";
+import MyInput from "./components/MyInput";
 
 // const Person = React.memo(({ name, age }) => {
 //   console.log("Person render");
@@ -42,34 +43,49 @@ import Modal from "./components/Modal";
 //   }
 // }
 
+// function App() {
+//   const [visible, setVisible] = useState(false);
+
+//   const open = () => {
+//     setVisible(true);
+//   };
+
+//   const close = () => {
+//     setVisible(false);
+//   };
+
+//   return (
+//     <div>
+//       <button onClick={open}>Open</button>
+//       {visible && (
+//         <Modal>
+//           <div
+//             style={{
+//               width: "100vw",
+//               height: "100vh",
+//               background: "rgba(0, 0, 0, 0.5)",
+//             }}
+//             onClick={close}
+//           >
+//             Hello
+//           </div>
+//         </Modal>
+//       )}
+//     </div>
+//   );
+// }
+
 function App() {
-  const [visible, setVisible] = useState(false);
+  const myInputRef = useRef();
 
-  const open = () => {
-    setVisible(true);
-  };
-
-  const close = () => {
-    setVisible(false);
+  const click = () => {
+    console.log(myInputRef.current.value);
   };
 
   return (
     <div>
-      <button onClick={open}>Open</button>
-      {visible && (
-        <Modal>
-          <div
-            style={{
-              width: "100vw",
-              height: "100vh",
-              background: "rgba(0, 0, 0, 0.5)",
-            }}
-            onClick={close}
-          >
-            Hello
-          </div>
-        </Modal>
-      )}
+      <MyInput ref={myInputRef} />
+      <button onClick={click}>send</button>
     </div>
   );
 }
