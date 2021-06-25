@@ -64,7 +64,7 @@
   - SPA 프로젝트 배포 이해
   - serve 패키지로 React Web App 배포하기
   - AWS S3에 React Web App 배포하기 [http://my-react-web-app-tic-tac-toc.s3-website.ap-northeast-2.amazonaws.com/]
-  - NginX로 React Web App 배포하기
+  - NginX로 React Web App 배포하기 [http://13.125.215.70]
   - node.js express로 React Web App 배포하기
   - 서버사이드 렌더링 이해
 
